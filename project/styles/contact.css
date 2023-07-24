@@ -1,0 +1,149 @@
+.navbar {
+  text-transform: capitalize;
+  background-color: #f8ece7 !important;  
+}
+
+.navbar-toggler {
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: #f17070;
+  text-decoration: none;
+  margin: 50px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: #181D27
+}
+
+.logo {
+  width: 55px;
+  height: auto;
+}
+
+.navbar-toggler {
+  color: transparent;
+}
+
+body {
+  background-color:#f17070 !important;
+}
+
+*{
+  font-family: sans-serif;
+  color: white;
+}
+
+#dropdown, invalid {
+  color: grey;
+}
+#dropdown{
+  color: black;
+}
+
+#title {
+  color: #f17070;
+}
+
+form{
+  background-color: #f8ece7;
+  padding: 2.5rem;
+  width: 80%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#question{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+label {
+  color: black;
+}
+
+main {
+ margin: 40px;
+}
+
+h1, p{
+  text-align: center;
+  font-weight: 90;
+  color: white !important;
+}
+
+p{
+  font-style: italic;
+  margin: 0px 0px 30px;
+}
+
+input, #dropdown {
+  background-color: white;
+  color: grey;
+}
+
+#name, #email, #phone, #submit, #dropdown{
+  width: 100%;
+  border-radius:4px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+textarea {
+  width: 100%;
+  border-radius:4px;
+  height: 80px;
+  margin-top: 15px;
+}
+
+#date {
+  border-radius: 4px;
+  height: 40px;
+  margin-top: 15px;
+  
+}
+
+textarea{
+  background-color: white;
+  color: black;
+}
+
+#submit{
+  background-color: #f1d470;
+  color: black;
+  font-weight: 600;
+  height: 35px;
+  font-size: 15px;
+  font-weight: 90;
+  border-radius: 5px;
+  box-align: center;
+}
+
+footer {
+  
+  background-color: #f8ece7;
+  color: white;
+}
+
+.bi {
+  width: 50px;
+  height: auto;
+  background-color: transparent;
+}
