@@ -50,7 +50,7 @@ body {
   color: grey;
 }
 #dropdown{
-  color: black;
+  color: black !important;
 }
 
 #title {
