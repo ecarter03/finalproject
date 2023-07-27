@@ -49,9 +49,13 @@ body {
 #dropdown, invalid {
   color: grey;
 }
-#dropdown{
+#dropdown {
   color: black !important;
 }
+
+option {
+  color: black;
+}  
 
 #title {
   color: #f17070;
